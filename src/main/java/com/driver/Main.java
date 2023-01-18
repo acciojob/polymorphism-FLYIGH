@@ -5,20 +5,20 @@ public class Main {
         Product p = new Product();
         int x = p.product(2, 3);
         int y = p.product(3, 4, 5);
-        double z = p.product(2.3, 2.3);
+        double z = p.product(23, 23);
     }
 
     public static  class Product {
 
-        public int product(int x, int y) {
+        public static int product(int x, int y) {
             return x + y;
         }
 
-        public int product(int x, int y, int z) {
+        public static int product(int x, int y, int z) {
             return x + y + z;
         }
 
-        public double product(double x, double y) {
+        public static double product(double x, double y) {
             return x + y;
         }
 
